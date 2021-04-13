@@ -1,0 +1,84 @@
+#hello {
+  //   width: 100%;
+  //   min-height: 100%;
+  //   display: flex;
+  //   flex-wrap: wrap;
+
+  .page-one {
+    width: 100%;
+    height: 750px;
+    display: flex;
+    flex-wrap: wrap;
+
+    .first {
+      background-color: green;
+      width: 50%;
+      height: 50%;
+      background-image: url(../assests/images/1.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      .para {
+        margin-top: 175px;
+      }
+    }
+
+    .second {
+      background-color: blue;
+      width: 50%;
+      height: 50%;
+      background-image: url(../assests/images/2.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      .para {
+        margin-top: 175px;
+      }
+    }
+
+    .third {
+      background-color: blue;
+      width: 50%;
+      height: 50%;
+      background-image: url(../assests/images/3.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      .para {
+        margin-top: 175px;
+      }
+    }
+
+    .fourth {
+      background-color: blueviolet;
+      height: 50%;
+      width: 50%;
+      background-image: url(../assests/images/4.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      .para {
+        margin-top: 175px;
+      }
+    }
+
+    .fifth {
+      width: 100%;
+      min-height: 350px;
+      background-color: black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .para {
+        width: 200px;
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+}

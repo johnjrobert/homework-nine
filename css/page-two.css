@@ -1,0 +1,55 @@
+#hello {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+#hello .page-two {
+  display: flex;
+  flex-wrap: wrap;
+}
+#hello .page-two .first-two {
+  background-color: green;
+  width: 50%;
+  height: 50%;
+}
+#hello .page-two .first-two .para {
+  margin-top: 75px;
+}
+#hello .page-two .second-two {
+  background-color: blue;
+  width: 50%;
+  height: 50%;
+}
+#hello .page-two .second-two .para {
+  margin-top: 75px;
+}
+#hello .page-two .third-two {
+  background-color: red;
+  width: 50%;
+  height: 50%;
+}
+#hello .page-two .third-two .para {
+  margin-top: 25px;
+}
+#hello .page-two .fourth-two {
+  background-color: blueviolet;
+  height: 50%;
+  width: 50%;
+}
+#hello .page-two .fourth-two .para {
+  margin-top: 25px;
+}
+#hello .page-two .fifth-two {
+  width: 100%;
+  min-height: 350px;
+  background-color: cadetblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#hello .page-two .fifth-two .para {
+  width: 200px;
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,87 @@
+#hello {
+  //   width: 100%;
+  //   min-height: 100%;
+  //   display: flex;
+  //   flex-wrap: wrap;
+
+  .page-two {
+    width: 100%;
+    min-height: 3000px;
+    display: flex;
+    flex-direction: column;
+    // margin: 0 auto;
+    // justify-content: center;
+    align-items: center;
+
+    .first-two {
+      background-color: green;
+      width: 50%;
+      height: 50%;
+      background-image: url(../assests/images/5.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      .para {
+        margin-top: 375px;
+      }
+    }
+
+    .second-two {
+      background-color: blue;
+      width: 50%;
+      height: 50%;
+      background-image: url(../assests/images/6.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      .para {
+        margin-top: 375px;
+      }
+    }
+
+    .third-two {
+      background-color: red;
+      width: 50%;
+      height: 50%;
+      background-image: url(../assests/images/7.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      .para {
+        margin-top: 375px;
+      }
+    }
+
+    .fourth-two {
+      background-color: blueviolet;
+      height: 50%;
+      width: 50%;
+      background-image: url(../assests/images/8.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      .para {
+        margin-top: 375px;
+      }
+    }
+
+    .fifth-two {
+      width: 100%;
+      min-height: 350px;
+      //   background-color: cadetblue;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .para {
+        width: 200px;
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+}
